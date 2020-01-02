@@ -1,5 +1,5 @@
 {
-  "name": "uber_project",
+  "name": "clock_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladlutiy/project_uber.git"
+    "url": "git+https://github.com/vladlutiy/clock_project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vladlutiy/project_uber/issues"
+    "url": "https://github.com/vladlutiy/clock_project/issues"
   },
-  "homepage": "https://github.com/vladlutiy/project_uber#readme",
+  "homepage": "https://github.com/vladlutiy/clock_project#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
