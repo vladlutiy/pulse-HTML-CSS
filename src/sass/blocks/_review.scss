@@ -1,0 +1,41 @@
+.review{
+    padding: 0 20px 70px 20px;
+    .title{
+        margin-bottom: 70px;
+    }
+    &__img{
+        margin-right: 62px;
+        img{
+            min-width: 100%;
+        }
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subtile{
+        margin-top: 10px;
+        font-size: 14px;
+        // font-family: MuseoSansCyrl 300;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr{
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    hr{
+        margin: 48px 0 43px 0;
+        border-bottom: 0;
+        height: 1px;
+        
+    }
+}

@@ -1,9 +1,16 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/animate';
+
 @import 'base/variables';
+@import 'base/animation'; 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
 .container{
+    position: relative;
     max-width: 950px;
     margin: 0 auto; 
 }
@@ -15,4 +22,11 @@
 @import 'blocks/title';
 @import 'blocks/consultation';
 @import 'blocks/forms';
-@import 'base/_media';
+@import 'blocks/_carousel';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+
+@import 'base/media';
